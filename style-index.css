@@ -1,0 +1,82 @@
+
+body{
+    background-color:darkgray;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: 110px 155px 1fr 235px;
+}
+.nav{
+    padding: 5px;
+    padding-right: 1px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: gray;
+}
+a{
+    color: white;
+    
+}
+.nav-dice:hover,.nav-inventory:hover,.nav-main:hover{
+    background-color: darkgray;
+    border: 5px solid gray; 
+}
+a:hover{
+    color: black;
+}
+span{
+    text-align: center;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.link{
+    position: absolute;
+    top: 1000px;
+    font-size: larger;
+}
+.text{
+    padding-left: 2%;
+}
+.dice:hover{
+    background-color: darkgray;
+    border: 3px solid gray; 
+    color: black;
+}
+.dice{
+    background-color: gray;
+    text-align: center;
+    border: 3px solid black;
+    color: white;
+}
+.d{
+    margin: 0;
+}
+.D20, .DN{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+.DN{
+    margin: 0;
+    margin-top:20px;
+}
+.dice-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9px;
+    row-gap: 10px;
+}
+.form-main{
+    display: grid;
+    grid-template-columns: 1fr 290px 1fr;
+    
+}
+.form{
+    text-align: center;
+    padding: 10px;
+    padding-top: 0;
+    background-color: grey;
+    border: 2px solid black;
+}
